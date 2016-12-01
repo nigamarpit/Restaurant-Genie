@@ -7,17 +7,18 @@ hrateRes=[]
 numbers=["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine","ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"]
 
 from factual import Factual
-#factual = Factual('ke8x5LeW6GVnU1aPjTUvJS5Sr12YT2aTA9dDc18r', '4eDL2G2HlRm6ZOTkvxkj2xg86BRgOGUTVLoC5OsF')   #arjun.suresh2708@gmail.com
-factual = Factual('O7OPvoeCZbUC3Zsy5qld8zZIuZX99w0SKkT6APy8','V7eHUV01tJUyFqFcaLZrXN8cnIEGbUmdyE1ZO2KB')    #arjun.suresh27@gmail.com
+factual = Factual('ke8x5LeW6GVnU1aPjTUvJS5Sr12YT2aTA9dDc18r', '4eDL2G2HlRm6ZOTkvxkj2xg86BRgOGUTVLoC5OsF')   #arjun.suresh2708@gmail.com
+#factual = Factual('O7OPvoeCZbUC3Zsy5qld8zZIuZX99w0SKkT6APy8','V7eHUV01tJUyFqFcaLZrXN8cnIEGbUmdyE1ZO2KB')    #arjun.suresh27@gmail.com
 
 #print("Hello")
 #places = factual.table('places')
 
 
-cuisine="Italian"
+cuisine="Wings"
 postcode="90007"
 rating=4   #possible values 1-5
 price="expensive"    #possible values Cheap, moderate, Expensive
+locality="Seattle"
 
 if(price.lower()=="expensive"):
     price =5
@@ -29,7 +30,7 @@ elif(price.lower()=="moderate"):
 
 
 restaurants= factual.table('restaurants-us')
-data=restaurants.filters({"$and":[{"cuisine":{"$includes":cuisine}} ,{"rating":rating}     ]}).data()
+data=restaurants.filters({"$and":[{"cuisine":{"$includes":cuisine}} ,{"locality":locality} ,{"rating":rating}    ]}).data()
 #print(data)
 
 #data = places.search(cuisine).filters({'postcode':'90007'}).filters({'region':'CA'}).filters({'locality':locality}).data()
@@ -77,7 +78,7 @@ def nlg(data,cuisine,locality, rating, price):
         count_high_rated_res=0
         count_cheap_res=0
 
-        print("I found " + str(len(data)) + " restuarant that serve " + cuisine + " food "     "near " + locality + ".",end=" ")
+        print("I found " + str(len(data)) + " restaurants that serve " + cuisine + " food "     "near " + locality + ".",end=" ")
 
         #print(data)
 
@@ -178,7 +179,10 @@ def nlg(data,cuisine,locality, rating, price):
                 Rname.append(restaurant['name'] + "   Website: " + website_not_found(restaurant) + "     Tel: " + telephone_not_found(restaurant))
 
         if(count_high_rated_res==1):    #If the system found only one highly rated restaurant
-            print("Out of which "+str(count_high_rated_res)+" of them is highly rated",end=" ")
+            print("it is highly rated",end=" ")
+
+        if (count_high_rated_res >1):  # If the system found only one highly rated restaurant
+            print("Out of which " + str(count_high_rated_res) + " of them are highly rated", end=" ")
 
         if(count_high_rated_res>1 and count_high_rated_res==len(data)): #If the system found more than one highly rated restaurant
             print("All are highly rated",end=" ")
@@ -210,7 +214,7 @@ def nlg(data,cuisine,locality, rating, price):
                 count_moderate_res+=1
 
         if(count_moderate_res==0):
-            print("and I couldn't find any restaurants with moderate pricing in your locality")
+            print("and expensive")
 
         elif(count_moderate_res==1):
             print("and it is moderately priced with approximate price of $30 -50 per person. ")
@@ -255,11 +259,13 @@ def nlg(data,cuisine,locality, rating, price):
                     restaurant) + "     Tel: " + telephone_not_found(restaurant))
 
         if (count_high_rated_res == 1):  # If the system found only one highly rated restaurant
-            print("Out of which " + str(count_high_rated_res) + " of them is highly rated", end=" ")
+            print("It is highly rated", end=" ")
 
         if (count_high_rated_res > 1 and count_high_rated_res == len(
                 data)):  # If the system found more than one highly rated restaurant
             print("All are highly rated", end=" ")
+        if (count_high_rated_res > 1 and count_high_rated_res != len(data)):
+            print("Out of which, "+str(count_high_rated_res)+" are highly rated")
 
         # print("highly rated restaurant count is: "+str(count_high_rated_res))
 
