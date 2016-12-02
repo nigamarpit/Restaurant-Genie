@@ -1,0 +1,57 @@
+Language model created by QuickLM on Sat Nov 26 17:23:33 EST 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 2 sentences and 11 words
+
+\data\
+ngram 1=11
+ngram 2=12
+ngram 3=11
+
+\1-grams:
+-1.1761 </s> -0.3010
+-1.1761 <s> -0.2711
+-1.1761 CHEAP -0.2711
+-1.4771 CHINESE -0.2711
+-1.1761 FOOD -0.2711
+-1.4771 IN -0.2711
+-1.4771 INTERESTED -0.2863
+-1.4771 ITALIAN -0.2711
+-1.4771 I’D -0.2863
+-1.4771 I’M -0.2863
+-1.4771 LIKE -0.2711
+
+\2-grams:
+-0.6021 <s> I’D 0.0000
+-0.6021 <s> I’M 0.0000
+-0.6021 CHEAP CHINESE 0.0000
+-0.6021 CHEAP ITALIAN 0.0000
+-0.3010 CHINESE FOOD 0.0000
+-0.3010 FOOD </s> -0.3010
+-0.3010 IN CHEAP -0.1761
+-0.3010 INTERESTED IN 0.0000
+-0.3010 ITALIAN FOOD 0.0000
+-0.3010 I’D LIKE 0.0000
+-0.3010 I’M INTERESTED 0.0000
+-0.3010 LIKE CHEAP -0.1761
+
+\3-grams:
+-0.3010 <s> I’D LIKE
+-0.3010 <s> I’M INTERESTED
+-0.3010 CHEAP CHINESE FOOD
+-0.3010 CHEAP ITALIAN FOOD
+-0.3010 CHINESE FOOD </s>
+-0.3010 IN CHEAP ITALIAN
+-0.3010 INTERESTED IN CHEAP
+-0.3010 ITALIAN FOOD </s>
+-0.3010 I’D LIKE CHEAP
+-0.3010 I’M INTERESTED IN
+-0.3010 LIKE CHEAP CHINESE
+
+\end\

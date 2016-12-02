@@ -1,0 +1,567 @@
+[
+    {
+        "fax": "(310) 326-1769",
+        "meal_cater": true,
+        "hours": {
+            "friday": [
+                [
+                    "10:00",
+                    "23:00"
+                ]
+            ],
+            "monday": [
+                [
+                    "10:00",
+                    "23:00"
+                ]
+            ],
+            "tuesday": [
+                [
+                    "10:00",
+                    "23:00"
+                ]
+            ],
+            "sunday": [
+                [
+                    "10:30",
+                    "22:30"
+                ]
+            ],
+            "thursday": [
+                [
+                    "10:00",
+                    "23:00"
+                ]
+            ],
+            "saturday": [
+                [
+                    "10:00",
+                    "23:00"
+                ]
+            ],
+            "wednesday": [
+                [
+                    "10:00",
+                    "23:00"
+                ]
+            ]
+        },
+        "locality": "Harbor City",
+        "wifi": false,
+        "kids_goodfor": true,
+        "meal_deliver": false,
+        "open_24hrs": false,
+        "longitude": -118.304493,
+        "meal_dinner": true,
+        "alcohol_beer_wine": false,
+        "category_ids": [
+            352,
+            355
+        ],
+        "attire": "casual",
+        "meal_takeout": true,
+        "category_labels": [
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Chinese"
+            ],
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Fast Food"
+            ]
+        ],
+        "tel": "(310) 326-1682",
+        "neighborhood": [
+            "Harbor City"
+        ],
+        "hours_display": "Mon-Sat 10:00 AM-11:00 PM; Sun 10:30 AM-10:30 PM",
+        "alcohol": false,
+        "cuisine": [
+            "Chinese",
+            "Asian"
+        ],
+        "country": "us",
+        "$distance": 606.2795,
+        "meal_lunch": true,
+        "region": "CA",
+        "factual_id": "49f6fc32-dea4-458b-aad8-37447bd45907",
+        "alcohol_bar": false,
+        "accessible_wheelchair": true,
+        "payment_cashonly": false,
+        "address": "1608 Pacific Coast Hwy",
+        "price": 1,
+        "name": "Panda Express",
+        "reservations": false,
+        "alcohol_byob": false,
+        "latitude": 33.789159,
+        "website": "http://www.pandaexpress.com/",
+        "rating": 4,
+        "postcode": "90710"
+    },
+    {
+        "meal_cater": true,
+        "payment_cashonly": false,
+        "hours": {
+            "friday": [
+                [
+                    "11:30",
+                    "19:00"
+                ]
+            ],
+            "monday": [
+                [
+                    "11:30",
+                    "19:00"
+                ]
+            ],
+            "tuesday": [
+                [
+                    "11:30",
+                    "19:00"
+                ]
+            ],
+            "sunday": [
+                [
+                    "11:30",
+                    "19:00"
+                ]
+            ],
+            "thursday": [
+                [
+                    "11:30",
+                    "19:00"
+                ]
+            ],
+            "saturday": [
+                [
+                    "11:30",
+                    "19:00"
+                ]
+            ],
+            "wednesday": [
+                [
+                    "11:30",
+                    "19:00"
+                ]
+            ]
+        },
+        "locality": "Lomita",
+        "wifi": false,
+        "kids_goodfor": true,
+        "meal_deliver": true,
+        "open_24hrs": false,
+        "longitude": -118.314147,
+        "meal_dinner": true,
+        "alcohol_beer_wine": false,
+        "category_ids": [
+            359,
+            366
+        ],
+        "attire": "smart casual",
+        "meal_takeout": true,
+        "category_labels": [
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Japanese"
+            ],
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Sushi"
+            ]
+        ],
+        "tel": "(310) 517-9912",
+        "neighborhood": [
+            "Pacific Coast Highway",
+            "Harbor City"
+        ],
+        "alcohol_bar": false,
+        "address_extended": "Ste B",
+        "alcohol": false,
+        "cuisine": [
+            "Sushi",
+            "Japanese",
+            "Asian",
+            "Chinese",
+            "Barbecue"
+        ],
+        "country": "us",
+        "options_healthy": true,
+        "$distance": 1468.9688,
+        "meal_lunch": true,
+        "region": "CA",
+        "factual_id": "a3cb3bbb-422a-46fa-9289-2af5dd75dc7f",
+        "hours_display": "Open Daily 11:30 AM-7:00 PM",
+        "accessible_wheelchair": true,
+        "options_vegetarian": true,
+        "address": "1963 Pacific Coast Hwy",
+        "price": 1,
+        "name": "Sushi Cal",
+        "reservations": false,
+        "parking": true,
+        "alcohol_byob": false,
+        "latitude": 33.789716,
+        "rating": 4,
+        "postcode": "90717"
+    },
+    {
+        "hours": {
+            "friday": [
+                [
+                    "11:30",
+                    "23:59"
+                ]
+            ],
+            "monday": [
+                [
+                    "11:30",
+                    "22:00"
+                ]
+            ],
+            "tuesday": [
+                [
+                    "11:30",
+                    "22:00"
+                ]
+            ],
+            "sunday": [
+                [
+                    "11:30",
+                    "22:00"
+                ]
+            ],
+            "thursday": [
+                [
+                    "11:30",
+                    "23:59"
+                ]
+            ],
+            "saturday": [
+                [
+                    "11:30",
+                    "23:59"
+                ]
+            ],
+            "wednesday": [
+                [
+                    "11:30",
+                    "22:00"
+                ]
+            ]
+        },
+        "locality": "Lomita",
+        "website": "http://www.yamiteahouse.com",
+        "kids_goodfor": true,
+        "groups_goodfor": true,
+        "meal_deliver": false,
+        "rating": 4,
+        "email": "info@yamiteahouse.com",
+        "meal_dinner": true,
+        "alcohol_beer_wine": true,
+        "seating_outdoor": true,
+        "category_ids": [
+            342,
+            352,
+            457
+        ],
+        "attire": "casual",
+        "meal_takeout": true,
+        "category_labels": [
+            [
+                "Social",
+                "Food and Dining",
+                "Cafes, Coffee and Tea Houses"
+            ],
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Chinese"
+            ],
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Asian"
+            ]
+        ],
+        "tel": "(310) 326-2650",
+        "neighborhood": [
+            "West Carson",
+            "Central Area"
+        ],
+        "parking_lot": true,
+        "alcohol_bar": true,
+        "address_extended": "Ste 101",
+        "alcohol": true,
+        "cuisine": [
+            "Tea",
+            "Cafe",
+            "Coffee",
+            "Taiwanese",
+            "Chinese"
+        ],
+        "country": "us",
+        "$distance": 2519.2542,
+        "meal_lunch": true,
+        "region": "CA",
+        "factual_id": "7ed6f194-cb83-4d9c-bba4-3c7ebbd3362f",
+        "hours_display": "Mon-Wed 11:30 AM-10:00 PM; Thu-Sat 11:30 AM-11:59 PM; Sun 11:30 AM-10:00 PM",
+        "wifi": true,
+        "accessible_wheelchair": true,
+        "payment_cashonly": false,
+        "address": "24705 Narbonne Ave",
+        "price": 1,
+        "name": "Yami Teahouse",
+        "reservations": true,
+        "parking": true,
+        "open_24hrs": false,
+        "latitude": 33.80045,
+        "parking_street": true,
+        "longitude": -118.320275,
+        "postcode": "90717"
+    },
+    {
+        "fax": "(310) 325-8403",
+        "meal_cater": true,
+        "hours": {
+            "friday": [
+                [
+                    "11:00",
+                    "21:30"
+                ]
+            ],
+            "monday": [
+                [
+                    "11:00",
+                    "21:30"
+                ]
+            ],
+            "tuesday": [
+                [
+                    "11:00",
+                    "21:30"
+                ]
+            ],
+            "sunday": [
+                [
+                    "11:00",
+                    "21:00"
+                ]
+            ],
+            "thursday": [
+                [
+                    "11:00",
+                    "21:30"
+                ]
+            ],
+            "saturday": [
+                [
+                    "11:00",
+                    "21:30"
+                ]
+            ],
+            "wednesday": [
+                [
+                    "11:00",
+                    "21:30"
+                ]
+            ]
+        },
+        "locality": "Lomita",
+        "wifi": false,
+        "kids_goodfor": true,
+        "meal_deliver": false,
+        "longitude": -118.318486,
+        "meal_dinner": true,
+        "accessible_wheelchair": true,
+        "factual_id": "9bde9e31-b991-49c8-aa2e-76d7ae86c738",
+        "attire": "casual",
+        "meal_takeout": true,
+        "category_labels": [
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Chinese"
+            ],
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Asian"
+            ],
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "International"
+            ]
+        ],
+        "tel": "(310) 325-8428",
+        "neighborhood": [
+            "Harbor City",
+            "Pacific Coast Highway"
+        ],
+        "name": "The Wok Experience",
+        "options_healthy": true,
+        "alcohol": true,
+        "cuisine": [
+            "Chinese",
+            "Asian",
+            "Pan Asian",
+            "Mediterranean",
+            "Fast Food"
+        ],
+        "country": "us",
+        "$distance": 1854.6415,
+        "meal_lunch": true,
+        "region": "CA",
+        "category_ids": [
+            352,
+            457,
+            464
+        ],
+        "hours_display": "Mon-Sat 11:00 AM-9:30 PM; Sun 11:00 AM-9:00 PM",
+        "options_vegetarian": true,
+        "address": "2124 Pacific Coast Hwy",
+        "price": 1,
+        "open_24hrs": false,
+        "reservations": true,
+        "payment_cashonly": false,
+        "latitude": 33.78939,
+        "rating": 4,
+        "postcode": "90717"
+    },
+    {
+        "hours": {
+            "friday": [
+                [
+                    "11:30",
+                    "14:00"
+                ],
+                [
+                    "17:30",
+                    "23:59"
+                ]
+            ],
+            "tuesday": [
+                [
+                    "11:30",
+                    "14:00"
+                ],
+                [
+                    "18:00",
+                    "23:00"
+                ]
+            ],
+            "sunday": [
+                [
+                    "17:00",
+                    "22:00"
+                ]
+            ],
+            "thursday": [
+                [
+                    "11:30",
+                    "14:00"
+                ],
+                [
+                    "18:00",
+                    "23:00"
+                ]
+            ],
+            "saturday": [
+                [
+                    "11:30",
+                    "14:00"
+                ],
+                [
+                    "17:30",
+                    "23:59"
+                ]
+            ],
+            "wednesday": [
+                [
+                    "11:30",
+                    "14:00"
+                ],
+                [
+                    "18:00",
+                    "23:00"
+                ]
+            ]
+        },
+        "locality": "Lomita",
+        "wifi": false,
+        "kids_goodfor": true,
+        "groups_goodfor": true,
+        "meal_deliver": true,
+        "longitude": -118.324887,
+        "meal_dinner": true,
+        "alcohol_beer_wine": true,
+        "seating_outdoor": false,
+        "category_ids": [
+            359,
+            457
+        ],
+        "attire": "casual",
+        "meal_takeout": true,
+        "category_labels": [
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Japanese"
+            ],
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Asian"
+            ]
+        ],
+        "tel": "(310) 534-0153",
+        "neighborhood": [
+            "Ironsides",
+            "Harbor City"
+        ],
+        "parking_lot": true,
+        "alcohol_bar": true,
+        "address_extended": "Ste 102",
+        "alcohol": true,
+        "cuisine": [
+            "Japanese",
+            "Asian",
+            "Barbecue",
+            "Chinese",
+            "Healthy"
+        ],
+        "country": "us",
+        "options_healthy": true,
+        "$distance": 3158.8318,
+        "meal_lunch": true,
+        "region": "CA",
+        "factual_id": "3a3d5c2b-d441-48f8-bfef-caed62e4e884",
+        "hours_display": "Tue-Thu 11:30 AM-2:00 PM, 6:00 PM-11:00 PM; Fri-Sat 11:30 AM-2:00 PM, 5:30 PM-11:59 PM; Sun 5:00 PM-10:00 PM",
+        "accessible_wheelchair": true,
+        "payment_cashonly": false,
+        "address": "2383 Lomita Blvd",
+        "price": 1,
+        "name": "Gaja Japanese Restaurant",
+        "reservations": true,
+        "parking": true,
+        "meal_breakfast": false,
+        "open_24hrs": false,
+        "latitude": 33.80486,
+        "rating": 4,
+        "postcode": "90717"
+    }
+]
