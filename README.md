@@ -2,10 +2,10 @@
 
 Restaurant GENIE is an interface that assists the users to choose restaurants based on their preferences.
 
-- [Working](#Working)
-- [Domain](#Domain)
-- [Pre-requisites](#Pre-requisites)
-- [How to Execute](#Execution)
+- [Working](#working)
+- [Domain](#domain)
+- [Pre-requisites](#pre-requisites)
+- [How to Execute](#execution)
 
 ## Working
 It follows the complete spoken dialog architecture which includes the following components:
