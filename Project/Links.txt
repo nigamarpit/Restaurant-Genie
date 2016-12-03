@@ -1,9 +1,0 @@
-https://github.com/Uberi/speech_recognition
-http://blog.justsophie.com/python-speech-to-text-with-pocketsphinx/
-https://pypi.python.org/pypi/SpeechRecognition/2.1.3
-https://pypi.python.org/pypi/pocketsphinx
-https://github.com/cmusphinx/pocketsphinx-python
-http://www.speech.cs.cmu.edu/tools/lmtool.html
-
-Generate binaries from the language model
-http://cmusphinx.sourceforge.net/wiki/tutoriallm
