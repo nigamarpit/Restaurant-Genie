@@ -1,0 +1,5 @@
+﻿  sphinx_fe.c
+c:\users\xenon\desktop\cmusphinx-code-13253-trunk\cmusphinx-code-13253-trunk\sphinxbase\src\sphinx_fe\sphinx_fe.c(187): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\xenon\desktop\cmusphinx-code-13253-trunk\cmusphinx-code-13253-trunk\sphinxbase\src\sphinx_fe\sphinx_fe.c(397): warning C4018: '<': signed/unsigned mismatch
+  sphinx_fe.vcxproj -> C:\Users\Xenon\Desktop\cmusphinx-code-13253-trunk\cmusphinx-code-13253-trunk\sphinxbase\\bin\Debug\Win32\sphinx_fe.exe
+  sphinx_fe.vcxproj -> .\../../bin/Debug/Win32/sphinx_fe.pdb (Full PDB)

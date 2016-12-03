@@ -1,0 +1,48 @@
+AC_INIT(multisphinx, 0.8)
+AC_CONFIG_HEADERS([sphinxbase/config.h sphinxbase/sphinx_config.h])
+AM_INIT_AUTOMAKE([no-define])
+AC_CONFIG_MACRO_DIR([m4])
+
+CFLAGS=${CFLAGS:--g -O2 -Wall}
+
+AC_CANONICAL_HOST
+AC_PROG_CC
+AM_PROG_LEX
+AC_PROG_YACC
+AC_C_BIGENDIAN
+AC_CHECK_TYPES(long long)
+AC_CHECK_SIZEOF(long long)
+AC_CHECK_FUNCS([popen perror snprintf])
+AC_CHECK_FUNCS(dup2)
+AC_CHECK_LIB(m, log)
+AC_CHECK_HEADERS([errno.h pthread.h])
+AC_CHECK_LIB(pthread, pthread_create)
+AM_ICONV
+
+LT_INIT
+
+dnl
+dnl Check for pkgconfig
+dnl
+AC_CHECK_PROG(HAVE_PKGCONFIG, pkg-config, yes, no)
+
+dnl
+dnl Enable debugging
+dnl
+AC_ARG_ENABLE(debug,
+	AS_HELP_STRING([--enable-debug],
+			[Enable debugging output]),
+	AC_DEFINE(SPHINX_DEBUG, [],
+	          [Enable debugging output]))
+
+AC_OUTPUT([
+multisphinx.pc
+Makefile
+sphinxbase/Makefile
+multisphinx/Makefile
+programs/Makefile
+swig/Makefile
+test/Makefile
+doc/Makefile
+doc/doxyfile
+])

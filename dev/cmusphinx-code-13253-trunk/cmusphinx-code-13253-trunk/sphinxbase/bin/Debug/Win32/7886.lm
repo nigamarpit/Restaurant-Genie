@@ -1,0 +1,160 @@
+Language model created by QuickLM on Wed Nov 30 19:45:56 EST 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 16 sentences and 29 words
+
+\data\
+ngram 1=29
+ngram 2=47
+ngram 3=61
+
+\1-grams:
+-0.7827 </s> -0.2227
+-0.7827 <s> -0.1686
+-1.9868 AM -0.2965
+-2.2878 ANY -0.2227
+-2.2878 ANYTHING -0.2227
+-1.9868 CHEAP -0.2201
+-2.2878 CHINESE -0.2988
+-2.2878 EXPENSIVE -0.2227
+-2.2878 FIVE -0.2227
+-2.2878 FOOD -0.2943
+-2.2878 FOR -0.2988
+-2.2878 FOUR -0.2227
+-1.9868 I -0.2965
+-2.2878 IN -0.2965
+-2.2878 INDIAN -0.2988
+-2.2878 INTERESTED -0.2988
+-2.2878 ITALIAN -0.2988
+-2.2878 LOOKING -0.2988
+-2.2878 ME -0.2227
+-1.9868 ME. -0.2227
+-2.2878 MODERATE -0.2227
+-1.8107 NEAR -0.2943
+-2.2878 NO -0.2227
+-2.2878 ONE -0.2227
+-2.2878 RESTAURANT -0.2943
+-2.2878 RESTAURANT. -0.2227
+-2.2878 THREE -0.2227
+-2.2878 TWO -0.2227
+-2.2878 YES -0.2227
+
+\2-grams:
+-0.6021 </s> </s> -0.3010
+-0.6021 <s> <s> -0.1761
+-1.8062 <s> ANY 0.0000
+-1.8062 <s> ANYTHING 0.0000
+-1.8062 <s> CHEAP -0.1761
+-1.8062 <s> CHINESE 0.0000
+-1.8062 <s> EXPENSIVE 0.0000
+-1.8062 <s> FIVE 0.0000
+-1.8062 <s> FOUR 0.0000
+-1.5051 <s> I 0.0000
+-1.8062 <s> MODERATE 0.0000
+-1.8062 <s> NEAR -0.2218
+-1.8062 <s> NO 0.0000
+-1.8062 <s> ONE 0.0000
+-1.8062 <s> THREE 0.0000
+-1.8062 <s> TWO 0.0000
+-1.8062 <s> YES 0.0000
+-0.6021 AM INTERESTED 0.0000
+-0.6021 AM LOOKING 0.0000
+-0.3010 ANY </s> -0.1761
+-0.3010 ANYTHING </s> -0.1761
+-0.6021 CHEAP </s> -0.1761
+-0.6021 CHEAP ITALIAN 0.0000
+-0.3010 CHINESE FOOD 0.0000
+-0.3010 EXPENSIVE </s> -0.1761
+-0.3010 FIVE </s> -0.1761
+-0.3010 FOOD NEAR -0.1249
+-0.3010 FOR INDIAN 0.0000
+-0.3010 FOUR </s> -0.1761
+-0.3010 I AM 0.0000
+-0.3010 IN CHEAP -0.1761
+-0.3010 INDIAN RESTAURANT. 0.0000
+-0.3010 INTERESTED IN 0.0000
+-0.3010 ITALIAN RESTAURANT 0.0000
+-0.3010 LOOKING FOR 0.0000
+-0.3010 ME </s> -0.1761
+-0.3010 ME. </s> -0.1761
+-0.3010 MODERATE </s> -0.1761
+-0.7782 NEAR ME 0.0000
+-0.4771 NEAR ME. 0.0000
+-0.3010 NO </s> -0.1761
+-0.3010 ONE </s> -0.1761
+-0.3010 RESTAURANT NEAR -0.1249
+-0.3010 RESTAURANT. </s> -0.1761
+-0.3010 THREE </s> -0.1761
+-0.3010 TWO </s> -0.1761
+-0.3010 YES </s> -0.1761
+
+\3-grams:
+-1.5051 <s> <s> ANY
+-1.5051 <s> <s> ANYTHING
+-1.5051 <s> <s> CHEAP
+-1.5051 <s> <s> CHINESE
+-1.5051 <s> <s> EXPENSIVE
+-1.5051 <s> <s> FIVE
+-1.5051 <s> <s> FOUR
+-1.2041 <s> <s> I
+-1.5051 <s> <s> MODERATE
+-1.5051 <s> <s> NEAR
+-1.5051 <s> <s> NO
+-1.5051 <s> <s> ONE
+-1.5051 <s> <s> THREE
+-1.5051 <s> <s> TWO
+-1.5051 <s> <s> YES
+-0.3010 <s> ANY </s>
+-0.3010 <s> ANYTHING </s>
+-0.3010 <s> CHEAP </s>
+-0.3010 <s> CHINESE FOOD
+-0.3010 <s> EXPENSIVE </s>
+-0.3010 <s> FIVE </s>
+-0.3010 <s> FOUR </s>
+-0.3010 <s> I AM
+-0.3010 <s> MODERATE </s>
+-0.3010 <s> NEAR ME
+-0.3010 <s> NO </s>
+-0.3010 <s> ONE </s>
+-0.3010 <s> THREE </s>
+-0.3010 <s> TWO </s>
+-0.3010 <s> YES </s>
+-0.3010 AM INTERESTED IN
+-0.3010 AM LOOKING FOR
+-0.3010 ANY </s> </s>
+-0.3010 ANYTHING </s> </s>
+-0.3010 CHEAP </s> </s>
+-0.3010 CHEAP ITALIAN RESTAURANT
+-0.3010 CHINESE FOOD NEAR
+-0.3010 EXPENSIVE </s> </s>
+-0.3010 FIVE </s> </s>
+-0.3010 FOOD NEAR ME.
+-0.3010 FOR INDIAN RESTAURANT.
+-0.3010 FOUR </s> </s>
+-0.6021 I AM INTERESTED
+-0.6021 I AM LOOKING
+-0.3010 IN CHEAP ITALIAN
+-0.3010 INDIAN RESTAURANT. </s>
+-0.3010 INTERESTED IN CHEAP
+-0.3010 ITALIAN RESTAURANT NEAR
+-0.3010 LOOKING FOR INDIAN
+-0.3010 ME </s> </s>
+-0.3010 ME. </s> </s>
+-0.3010 MODERATE </s> </s>
+-0.3010 NEAR ME </s>
+-0.3010 NEAR ME. </s>
+-0.3010 NO </s> </s>
+-0.3010 ONE </s> </s>
+-0.3010 RESTAURANT NEAR ME.
+-0.3010 RESTAURANT. </s> </s>
+-0.3010 THREE </s> </s>
+-0.3010 TWO </s> </s>
+-0.3010 YES </s> </s>
+
+\end\

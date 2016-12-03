@@ -1,0 +1,4 @@
+﻿  continuous.c
+c:\users\xenon\desktop\cmusphinx-code-13253-trunk\cmusphinx-code-13253-trunk\pocketsphinx\src\programs\continuous.c(110): warning C4244: '=': conversion from 'float64' to 'float', possible loss of data
+  pocketsphinx_continuous.vcxproj -> C:\Users\Xenon\Desktop\cmusphinx-code-13253-trunk\cmusphinx-code-13253-trunk\pocketsphinx\\bin\Debug\Win32\pocketsphinx_continuous.exe
+  pocketsphinx_continuous.vcxproj -> C:\Users\Xenon\Desktop\cmusphinx-code-13253-trunk\cmusphinx-code-13253-trunk\pocketsphinx\\bin\Debug\Win32/pocketsphinx_continuous.pdb (Full PDB)
