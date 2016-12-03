@@ -1,0 +1,200 @@
+[
+    {
+        "open_24hrs": false,
+        "payment_cashonly": true,
+        "attire": "casual",
+        "price": 1,
+        "hours": {
+            "thursday": [
+                [
+                    "10:00",
+                    "15:00"
+                ]
+            ],
+            "monday": [
+                [
+                    "10:00",
+                    "15:00"
+                ]
+            ],
+            "friday": [
+                [
+                    "10:00",
+                    "15:00"
+                ]
+            ],
+            "wednesday": [
+                [
+                    "10:00",
+                    "15:00"
+                ]
+            ],
+            "tuesday": [
+                [
+                    "10:00",
+                    "15:00"
+                ]
+            ]
+        },
+        "category_ids": [
+            361,
+            349,
+            364
+        ],
+        "meal_takeout": true,
+        "longitude": -118.272802,
+        "hours_display": "Mon-Fri 10:00 AM-3:00 PM",
+        "accessible_wheelchair": true,
+        "cuisine": [
+            "Mexican",
+            "Barbecue",
+            "Chinese",
+            "American",
+            "Asian"
+        ],
+        "seating_outdoor": true,
+        "latitude": 34.018577,
+        "category_labels": [
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Mexican"
+            ],
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Barbecue"
+            ],
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Seafood"
+            ]
+        ],
+        "website": "http://www.elranchitorestaurant.com/",
+        "postcode": "90007",
+        "meal_breakfast": true,
+        "factual_id": "5907f4ab-6e7d-4a3a-8c0d-f23e2fbc688f",
+        "rating": 5,
+        "wifi": false,
+        "reservations": true,
+        "tel": "(213) 747-0443",
+        "region": "CA",
+        "locality": "Los Angeles",
+        "parking_street": true,
+        "country": "us",
+        "address": "3401 S Main St",
+        "parking": true,
+        "meal_lunch": true,
+        "neighborhood": [
+            "Jefferson"
+        ],
+        "meal_deliver": true,
+        "name": "El Ranchito Restaurant",
+        "meal_cater": true,
+        "$distance": 2143.9153
+    },
+    {
+        "open_24hrs": false,
+        "meal_takeout": true,
+        "payment_cashonly": false,
+        "attire": "casual",
+        "tel": "(213) 742-6764",
+        "alcohol": false,
+        "hours": {
+            "friday": [
+                [
+                    "9:00",
+                    "20:00"
+                ]
+            ],
+            "tuesday": [
+                [
+                    "9:00",
+                    "20:00"
+                ]
+            ],
+            "saturday": [
+                [
+                    "9:00",
+                    "20:00"
+                ]
+            ],
+            "thursday": [
+                [
+                    "9:00",
+                    "20:00"
+                ]
+            ],
+            "monday": [
+                [
+                    "9:00",
+                    "20:00"
+                ]
+            ],
+            "wednesday": [
+                [
+                    "9:00",
+                    "20:00"
+                ]
+            ],
+            "sunday": [
+                [
+                    "9:00",
+                    "20:00"
+                ]
+            ]
+        },
+        "category_ids": [
+            367
+        ],
+        "meal_lunch": true,
+        "factual_id": "635e9d74-ea4d-41c6-a7c8-54c31f4abf3d",
+        "hours_display": "Open Daily 9:00 AM-8:00 PM",
+        "alcohol_bar": false,
+        "cuisine": [
+            "Thai",
+            "Asian",
+            "Chinese",
+            "Fast Food"
+        ],
+        "seating_outdoor": true,
+        "latitude": 34.025044,
+        "category_labels": [
+            [
+                "Social",
+                "Food and Dining",
+                "Restaurants",
+                "Thai"
+            ]
+        ],
+        "address_extended": "Ste F",
+        "alcohol_beer_wine": false,
+        "postcode": "90007",
+        "meal_breakfast": true,
+        "website": "http://triohouse.com",
+        "longitude": -118.283957,
+        "kids_goodfor": true,
+        "rating": 5,
+        "wifi": false,
+        "reservations": true,
+        "alcohol_byob": false,
+        "region": "CA",
+        "locality": "Los Angeles",
+        "accessible_wheelchair": true,
+        "price": 1,
+        "address": "3333 S Hoover St",
+        "country": "us",
+        "neighborhood": [
+            "Dockweiler",
+            "St. James Park"
+        ],
+        "meal_deliver": false,
+        "$distance": 2415.3208,
+        "name": "Thai Trio",
+        "meal_dinner": true
+    }
+]
